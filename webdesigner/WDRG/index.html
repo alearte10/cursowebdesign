@@ -1,44 +1,53 @@
 <!DOCTYPE html>
 <html="pt-br>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="widht=device-width, initial-scale=1.0">
-    <title>SLIDER com CSS </title>
-    <link rel="stylesheet" href="slider.css">
-</head>
-<body>
-    <div class="slider">
-        <div class="slides">
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
-            <input type="radio" name="radio-btn" id="radio4">
-        
-        <div class="slide first">
-            <img src="armazenamento.jpg" alt="imagem 1"/>
-            <img src="packing.jpg" alt="imagem 2"/>
-            <img src="distribuicao.png" alt="imagem 3"/>
-            <img src="transporte.jpeg" alt="imagem 4"/>
-        </div>   
-        <div  class="navigation-auto">
-            <div class="autobtn1"></div>
-            <div class="autobtn2"></div>
-            <div class="autobtn3"></div>
-            <div class="autobtn4"></div>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SLIDER com CSS </title>
+        <link rel="stylesheet" href="slider.css">
+    </head>
+
+    <body>
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <img src="armazenamento.jpg" alt="imagem 1" />
+                </div>
+                <div class="slide">
+                    <img src="packing.jpg" alt="imagem 2" />
+                </div>
+                <div class="slide">
+                    <img src="distribuicao.png" alt="imagem 3" />
+                </div>
+                <div class="slide">
+                    <img src="transporte.jpeg" alt="imagem 4" />
+                </div>
+
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+            </div>
+
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
         </div>
-    
-    </div>
+        <script type="text/javascript" src="slider.js"></script>
 
-        <div class="manual-navigation">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio4" class="manual-btn"></label>
-        </div>
+    </body>
 
-
-     </div>
-     <script type="text/javascript"  src="slider.js"></script>
-
-</body>
-</html>
+    </html>
